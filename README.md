@@ -244,126 +244,13 @@ columns = ["公司名稱", "工作職缺", "更新日期", "URL", "工作內容"
 df = pd.DataFrame(data=data, columns= columns)
 
 # 存成 CSV
-df.to_csv("./TGI103_09_黃俊儒_homework104.csv", index = 0, encoding="utf-8-sig")
+df.to_csv("./XXX.csv", index = 0, encoding="utf-8-sig")
 ```
 
     將會進入104人力銀行爬取「資料工程師 數據分析師 AI工程師」相關職缺...
-    請輸入要爬取的頁數(正整數)： 3
+    請輸入要爬取的頁數(正整數)：
     
 
-    c:\python_etl\venv\lib\site-packages\ipykernel_launcher.py:12: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
-      if sys.path[0] == "":
-    
-
-    https://www.104.com.tw/job/7mvyx?jobsource=hotjob_chr
-    https://www.104.com.tw/job/7tymb?jobsource=hotjob_chr
-    https://www.104.com.tw/job/7f4u4?jobsource=hotjob_chr
-    https://www.104.com.tw/job/7t7rv?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/7sxjg?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/7h3xf?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/7qwdd?jobsource=jolist_d_relevance
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    https://www.104.com.tw/job/7o52w?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/7fjfp?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/6gj80?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/7scrv?jobsource=jolist_d_relevance
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    https://www.104.com.tw/job/6nnhm?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/3o2f1?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/7jr2y?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/7tsay?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/5bab9?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/76kp9?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/7pna3?jobsource=jolist_d_relevance
-    'NoneType' object has no attribute 'text'
-    https://www.104.com.tw/job/7cnnn?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/7gbex?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/7mxtd?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/7sv5a?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/7th7j?jobsource=jolist_d_relevance
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    https://www.104.com.tw/job/7ml7u?jobsource=jolist_a_relevance
-    https://www.104.com.tw/job/7ic7r?jobsource=jolist_a_relevance
-    https://www.104.com.tw/job/7u1oo?jobsource=jolist_a_relevance
-    https://www.104.com.tw/job/7hyrw?jobsource=jolist_a_relevance
-    https://www.104.com.tw/job/7mkef?jobsource=jolist_a_relevance
-    https://www.104.com.tw/job/6t23v?jobsource=jolist_a_relevance
-    https://www.104.com.tw/job/7irq1?jobsource=jolist_a_relevance
-    https://www.104.com.tw/job/70h72?jobsource=jolist_a_relevance
-    https://www.104.com.tw/job/7h7ez?jobsource=jolist_a_relevance
-    https://www.104.com.tw/job/7no9o?jobsource=jolist_a_relevance
-    https://www.104.com.tw/job/7q5tl?jobsource=jolist_a_relevance
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    https://www.104.com.tw/job/7u8qk?jobsource=jolist_a_relevance
-    https://www.104.com.tw/job/71lg0?jobsource=jolist_a_relevance
-    https://www.104.com.tw/job/6zvh2?jobsource=jolist_a_relevance
-    https://www.104.com.tw/job/7mnmc?jobsource=jolist_a_relevance
-    https://www.104.com.tw/job/6z1o9?jobsource=jolist_a_relevance
-    https://www.104.com.tw/job/7rfgz?jobsource=jolist_a_relevance
-    https://www.104.com.tw/job/78pf4?jobsource=jolist_a_relevance
-    https://www.104.com.tw/job/7h1vk?jobsource=jolist_a_relevance
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    https://www.104.com.tw/job/76d9o?jobsource=jolist_a_relevance
-    https://www.104.com.tw/job/7lgpf?jobsource=jolist_d_relevance
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    https://www.104.com.tw/job/7lu40?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/7tv2h?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/7g14z?jobsource=jolist_d_relevance
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    https://www.104.com.tw/job/6hv7d?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/6m2ce?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/7srhz?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/6fpnp?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/7gnzs?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/6hy2h?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/7fm1t?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/68kiw?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/74e4g?jobsource=jolist_d_relevance
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    https://www.104.com.tw/job/66jhi?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/7hlcd?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/747q3?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/7thdf?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/7gxgz?jobsource=jolist_d_relevance
-    https://www.104.com.tw/job/7ojo6?jobsource=jolist_d_relevance
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    'NoneType' object has no attribute 'text'
-    https://www.104.com.tw/job/5bgl0?jobsource=jolist_d_relevance
     
 
 ## 存入CSV檔案結果截圖:
